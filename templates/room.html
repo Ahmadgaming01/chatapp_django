@@ -6,7 +6,7 @@
     <style>
         body {
             margin: 0 auto;
-            max-width: 800px;
+            max-width: 100%;
             padding: 0 20px;
         }
 
@@ -58,17 +58,21 @@
 </head>
 
 <body>
+    <div class="container">
+        <h2 style="text-align: center; background-color: #45a049;  padding: 5px; border-radius: 50%;">{{room}} - DjChat
+        </h2>
 
-    <h2>{{room}} - DjChat</h2>
+        <div id="display">
 
-    <div id="display">
+            <div class="container darker">
+                <b>Ahmad</b>
+                <p>Hallo zusammen , willkommen in unseren chat ! </p>
+                <span class="time-left">3ER, Juni 2023</span>
+            </div>
 
-        <div class="container darker">
-  <b>Tom</b><p>Hallo zusammen , willkommen in unseren chat ! </p>
-  <span class="time-left">3ER, Juni 2023</span>
-</div>
-
+        </div>
     </div>
+
 
     <script>
         $(document).ready(function () {
