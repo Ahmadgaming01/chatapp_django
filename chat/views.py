@@ -26,7 +26,7 @@ def checkview(request):
 
 
 def send (request):
-    Message= request.POST['message']
+    message= request.POST['message']
     username= request.POST['username']
     room_id= request.POST['room_id']
 

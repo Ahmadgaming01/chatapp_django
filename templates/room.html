@@ -63,10 +63,10 @@
 
     <div id="display">
 
-        <!-- <div class="container darker">
+        <div class="container darker">
   <b>Tom</b><p>Hello Everyone, How Are You Guys Doing?</p>
   <span class="time-left">20th, April 2021</span>
-</div> -->
+</div>
 
     </div>
 
@@ -89,7 +89,7 @@
                         }
                     },
                     error: function (response) {
-                        alert('An error occured')
+                        //alert('An error occured')
                     }
                 });
             }, 1000);
@@ -158,7 +158,7 @@
                 csrfmiddlewaretoken: $('input[name=csrfmiddlewaretoken]').val(),
             },
             success: function (data) {
-                //alert(data)
+                alert(data)
             }
         });
         document.getElementById('message').value = ''
